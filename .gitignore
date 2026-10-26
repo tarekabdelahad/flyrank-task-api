@@ -1,6 +1,11 @@
-﻿__pycache__
-*.pyc
-venv/
-.venv/
+﻿# IDE / Editor settings
 .idea/
 .vscode/
+
+# Python cache & virtual environment
+__pycache__/
+*.pyc
+venv/
+.venv/# created by virtualenv automatically
+*
+
