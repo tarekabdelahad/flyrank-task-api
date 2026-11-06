@@ -1,11 +1,12 @@
-﻿# IDE / Editor settings
+﻿# IDE settings
 .idea/
 .vscode/
 
-# Python cache & virtual environment
+# Python cache
 __pycache__/
 *.pyc
+
+# Virtual environments
+.venv/
 venv/
-.venv/# created by virtualenv automatically
-*
 
