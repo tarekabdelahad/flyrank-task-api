@@ -1,0 +1,10 @@
+
+services:
+  app:
+    build: .
+    container_name: flyrank-task-api
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./tasks.db:/app/tasks.db
+    restart: unless-stopped
